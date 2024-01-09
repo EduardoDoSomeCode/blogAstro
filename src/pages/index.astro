@@ -1,0 +1,269 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Bienvenido a JS">
+	<div class="pl-4 text-sm breadcrumbs">
+		<ul>
+			<li><a href="/">Inicio</a></li>
+		</ul>
+	</div>
+
+	<main>
+		<h2 class="text-left text-4xl text-bold mt-3 mb-3">JS Exercise</h2>
+		<div
+			class="hero min-h-screen"
+			style="background-image: url(/js.jpg); shadow-xl	"
+		>
+			<div class="hero-overlay bg-opacity-60"></div>
+			<div class="hero-content text-center text-neutral-content">
+				<div class="max-w-md">
+					<h1
+						class="mb-5 text-5xl font-bold drop-shadow-xl text-yellow-400"
+					>
+						Bienvenido
+					</h1>
+					<p
+						class="mb-5 drop-shadow-md secondary-color text-slate-100"
+					>
+						Mejora tu logica de programacion , con ejercicios del
+						lenguaje que hace que la web funcione.
+					</p>
+					<button class="btn btn-primary">Comienza</button>
+				</div>
+			</div>
+		</div>
+
+		<!--  -->
+
+		<div class="stats shadow grid auto-rows-auto drop-shadow-md mt-5">
+			<div class="stat place-items-center">
+				<div class="stat-title">Ejercicios</div>
+				<div class="stat-value">+52</div>
+				<div class="stat-desc">mejora tu logica de programacion</div>
+			</div>
+
+			<div class="stat place-items-center">
+				<div class="stat-title">Conceptos</div>
+				<div class="stat-value text-yellow-400">10</div>
+				<div class="stat-desc text-yellow-400">
+					Aprende conceptos importantes
+				</div>
+			</div>
+
+			<div class="stat place-items-center">
+				<div class="stat-title">Proyectos</div>
+				<div class="stat-value">5</div>
+				<div class="stat-desc">Crea proyectos</div>
+			</div>
+		</div>
+
+
+		<h2 class=" text-center mt-14 font-bold text-4xl " >Nuestros alumnos</h2>
+		<div class="carousel w-full mt-14 mb-10  shadow-2xl">
+			<div id="slide1" class="carousel-item relative w-full">
+				<div class="card card-side bg-base-100 shadow-xl h-48">
+					<figure class="w-1/4">
+						<img
+							src="https://th.bing.com/th/id/OIP.XMJapQiW0_Q0aIWNxjIxoAHaLH?rs=1&pid=ImgDetMain"
+							alt="Movie"
+						/>
+					</figure>
+					<div class="card-body">
+						<h2 class="card-title">Benjamin Cruz</h2>
+						<p>
+							Pude aprende de una forma sin igual, ademas de
+							mejorar conseguir un empleo como Front-end
+						</p>
+						<div class="card-actions justify-end">
+							<div class="rating">
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+									checked
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+									checked
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+									checked
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+									checked
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+									checked
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+				>
+					<a href="#slide4" class="btn btn-circle">❮</a>
+					<a href="#slide2" class="btn btn-circle">❯</a>
+				</div>
+			</div>
+			<div id="slide2" class="carousel-item relative w-full">
+				<div class="card card-side bg-base-100 shadow-xl h-48">
+					<figure class="w-1/4">
+						<img
+							src="https://th.bing.com/th/id/OIP.jAEnONxlpsGr8oF6yPHI9QHaHZ?rs=1&pid=ImgDetMain"
+							alt="Movie"
+						/>
+					</figure>
+					<div class="card-body">
+						<h2 class="card-title">Jesus Manuel</h2>
+						<p>
+							Me ayudo a comprender mejor como pensar como
+							programador, ademas de darme una nueva habilidad
+						</p>
+						<div class="card-actions justify-end">
+							<div class="rating">
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+									checked
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+									checked
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+									checked
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+									checked
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+									checked
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+				>
+					<a href="#slide1" class="btn btn-circle">❮</a>
+					<a href="#slide3" class="btn btn-circle">❯</a>
+				</div>
+			</div>
+			<div id="slide3" class="carousel-item relative w-full">
+				<div class="card card-side bg-base-100 shadow-xl  h-48">
+					<figure class="w-1/4" ><img  src="https://i.pinimg.com/originals/e3/7e/0e/e37e0e25686c2139b281a57a5b4906f2.jpg" alt="Movie"/></figure>
+					<div class="card-body">
+					  <h2 class="card-title">Marshall santos</h2>
+					  <p>Aprendi una nueva habilidad , la cual me es util, gracias a la gran cantidad de ejercicios </p>
+					  <div class="card-actions justify-end">
+						<div class="rating">
+							<input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
+							<input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+							<input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+							<input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  checked/>
+							<input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+						  </div>
+					  </div>
+					</div>
+				  </div>
+		
+				<div
+					class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+				>
+					<a href="#slide2" class="btn btn-circle">❮</a>
+					<a href="#slide4" class="btn btn-circle">❯</a>
+				</div>
+			</div>
+		</div>
+
+
+
+		<h2 class ="text-center font-bold mb-3 text-2xl">F.A.Q</h2>
+		<div class="collapse collapse-plus bg-base-200 ">
+			<input type="radio" name="my-accordion-3" checked="checked" /> 
+			<div class="collapse-title text-xl font-medium text-amber-600	">
+			  Fundamentos solidos
+			</div>
+			<div class="collapse-content"> 
+			  <p class="p-2">Aprenderás no solo a programar con JavaScript:
+				<ul class="list-disc pl-10">
+					<li> cómo resolver problemas.</li>
+					<li>crear algoritmos</li>
+					<li>manejar el flujo de control.</li>
+				</ul>
+			
+				   </p>
+				   
+			</div>
+		  </div>
+		  <div class="collapse collapse-plus bg-base-200">
+			<input type="radio" name="my-accordion-3" /> 
+			<div class="collapse-title text-xl font-medium text-amber-600">
+			  Siempre actualizado
+			</div>
+			<div class="collapse-content"> 
+			  <p class="pl-8">Los cursos se actualizan constantemente para mantenerse al día con las diversas características del lenguaje.</p>
+			</div>
+		  </div>
+		  <div class="collapse collapse-plus bg-base-200">
+			<input type="radio" name="my-accordion-3" /> 
+			<div class="collapse-title text-xl font-medium text-amber-600">
+				Mentoria Experta
+			</div>
+			<div class="collapse-content"> 
+			  <p class="pl-8">Si surgen dudas, tendrás la oportunidad de consultar con un profesor experimentado en la industria para obtener orientación y claridad.</p>
+			</div>
+		  </div>
+		<p class="mt-14 text-center font-bold text-4xl p-4">
+			
+"Únete a nuestra comunidad y sumérgete en la fascinante experiencia de programar. ¡Suscríbete hoy mismo, sin dudarlo más!"
+		</p>
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1rem;
+		max-width: calc(100% - 2rem);
+		color: white;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+
+	h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 1em;
+	}
+</style>
